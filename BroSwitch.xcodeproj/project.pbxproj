@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6008566A1FC165D500D5F99B /* FloatingWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600856691FC165D500D5F99B /* FloatingWindowView.swift */; };
 		604A8A5A1FA9CE4900D28F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A8A591FA9CE4900D28F4A /* AppDelegate.swift */; };
 		604A8A5C1FA9CE4900D28F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A8A5B1FA9CE4900D28F4A /* ViewController.swift */; };
 		604A8A5E1FA9CE4900D28F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604A8A5D1FA9CE4900D28F4A /* Assets.xcassets */; };
 		604A8A611FA9CE4900D28F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604A8A5F1FA9CE4900D28F4A /* Main.storyboard */; };
 		604A8A6D1FA9CE4A00D28F4A /* BroSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A8A6C1FA9CE4A00D28F4A /* BroSwitchTests.swift */; };
 		604A8A781FA9CE4A00D28F4A /* BroSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604A8A771FA9CE4A00D28F4A /* BroSwitchUITests.swift */; };
+		6066C49B1FD97A70005EFF89 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6066C49A1FD97A70005EFF89 /* View.xib */; };
+		60A4A4F41FBB9B7D00BB8054 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A4A4F31FBB9B7D00BB8054 /* Browser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		600856691FC165D500D5F99B /* FloatingWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingWindowView.swift; sourceTree = "<group>"; };
 		604A8A561FA9CE4900D28F4A /* BroSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BroSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		604A8A591FA9CE4900D28F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		604A8A5B1FA9CE4900D28F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +50,8 @@
 		604A8A731FA9CE4A00D28F4A /* BroSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BroSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		604A8A771FA9CE4A00D28F4A /* BroSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroSwitchUITests.swift; sourceTree = "<group>"; };
 		604A8A791FA9CE4A00D28F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6066C49A1FD97A70005EFF89 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		60A4A4F31FBB9B7D00BB8054 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			children = (
 				604A8A591FA9CE4900D28F4A /* AppDelegate.swift */,
 				604A8A5B1FA9CE4900D28F4A /* ViewController.swift */,
+				60A4A4F31FBB9B7D00BB8054 /* Browser.swift */,
 				604A8A5D1FA9CE4900D28F4A /* Assets.xcassets */,
 				604A8A5F1FA9CE4900D28F4A /* Main.storyboard */,
+				6066C49A1FD97A70005EFF89 /* View.xib */,
+				600856691FC165D500D5F99B /* FloatingWindowView.swift */,
 				604A8A621FA9CE4900D28F4A /* Info.plist */,
 				604A8A631FA9CE4900D28F4A /* BroSwitch.entitlements */,
 			);
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				604A8A5E1FA9CE4900D28F4A /* Assets.xcassets in Resources */,
+				6066C49B1FD97A70005EFF89 /* View.xib in Resources */,
 				604A8A611FA9CE4900D28F4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +269,8 @@
 			files = (
 				604A8A5C1FA9CE4900D28F4A /* ViewController.swift in Sources */,
 				604A8A5A1FA9CE4900D28F4A /* AppDelegate.swift in Sources */,
+				6008566A1FC165D500D5F99B /* FloatingWindowView.swift in Sources */,
+				60A4A4F41FBB9B7D00BB8054 /* Browser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
